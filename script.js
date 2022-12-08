@@ -6,7 +6,6 @@
         items = carousel.getElementsByClassName('carousel__slider__item'),
         prevBtn = carousel.getElementsByClassName('carousel__prev')[0],
         nextBtn = carousel.getElementsByClassName('carousel__next')[0];
-      console.log(JSON.stringify(items))
     var width, height, totalWidth, margin = 20,
         currIndex = 0,
         interval, intervalTime = 4000;
