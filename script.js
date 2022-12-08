@@ -13,7 +13,8 @@
     function init() {
         resize();
         move(Math.floor(Math.random() * items.length));
-        bindEvents();
+        console.log(`Total Ideas: ${items.length}`)
+	bindEvents();
       
    
     }
