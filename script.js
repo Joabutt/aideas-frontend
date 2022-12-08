@@ -13,7 +13,7 @@
     
     function init() {
         resize();
-        move(Math.floor(items.length / 2));
+        move(Math.floor(Math.random * items.length));
         bindEvents();
       
    
